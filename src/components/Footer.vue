@@ -12,16 +12,14 @@
 
           <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
             <h5 class="footer-links">Nuestras Redes sociales</h5>
-            <div class="container">
-              <div class="row mt-2">
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
-                 
-                </div>
+            <div class="d-flex justify-content-center mt-4">
+              <a href="https://www.facebook.com/Tech-Design-105226334583577" target="_blank">
+                <img src="../assets/facebook-logo.png" alt="facebook" class="facebook-icon">
+              </a>
 
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
-
-                </div>
-              </div>
+              <a href="https://github.com/PaulMaldonado" target="_blank">
+                <img src="../assets/github.png" alt="github" class="github-icon">
+              </a>
             </div>
           </div>
         </div>
@@ -75,4 +73,15 @@ export default {
     height: 150px;
   }
 
+  .facebook-icon {
+    width: 50px;
+  }
+
+  .github-icon {
+    width: 50px;
+  }
+
+  .instagram-icon {
+    width: 70px;
+  }
 </style>
