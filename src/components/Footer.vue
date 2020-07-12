@@ -12,7 +12,17 @@
 
           <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
             <h5 class="footer-links">Nuestras Redes sociales</h5>
-            <i class="fa fa-facebook-square"></i>
+            <div class="container">
+              <div class="row mt-2">
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                 
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -59,4 +69,10 @@ export default {
     color: black;
     font-weight: 100;
   }
+
+  .icon-facebook {
+    max-width: 100px;
+    height: 150px;
+  }
+
 </style>
